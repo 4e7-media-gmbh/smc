@@ -34,6 +34,7 @@ fields:
     maxSize: 250
   label: img
 pages:
+- _post/dying-technology-hardware-von-gestern.md
 - _post/5d-datenspeicher-hält-länger-als-die-sonne.md
 - _post/photoshop-schönheitsideale-in-15-verschiedenen-ländern.md
 - _post/österreich-fest-verbaute-esims-kommen.md
