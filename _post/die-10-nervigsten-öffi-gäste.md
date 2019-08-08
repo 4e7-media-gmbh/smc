@@ -28,11 +28,9 @@ Jeder kennt sie: die Öffi-Gäste, die das U-Bahn fahren einfach unerträglich m
 
 ## 
 
-## 
-
 ## 6. Der Ei-Sandwich Fresser: Kommentar unnötig.
 
-## 7. Die Bazillenschleuder. *Haaatschi* und schön in die Hand geschnäutzt, die sich bei der nächsten Kurve verzweifelt an die Halterung klammert. Lecker!
+## 7. Die Bazillenschleuder. _Haaatschi_ und schön in die Hand geschnäutzt, die sich bei der nächsten Kurve verzweifelt an die Halterung klammert. Lecker!
 
 ## 
 
