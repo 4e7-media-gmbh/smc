@@ -1,7 +1,7 @@
 ---
 layouts: detail
 tag:
-- Tech
+- tech
 title: So vergisst du nie wieder Smartphone, Schlüssel & Co!
 author: Victoria Ihl
 date: '2015-07-18 '
