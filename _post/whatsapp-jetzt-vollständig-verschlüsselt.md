@@ -4,7 +4,7 @@ tag:
 - 'Hangout '
 title: Whatsapp Jetzt Vollständig Verschlüsselt
 author: ''
-date: 201-04-06 10:33:00
+date: '2016-04-06 10:33:00'
 img: "/img/whatapp.jpg"
 
 ---
