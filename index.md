@@ -12,19 +12,19 @@ layout: home
         <h4>{{ sorted.first.tag | capitalize }}</h4>
         <h4>{{ sorted.first.author | capitalize }}</h4>
     </div>
-    <h1>{{ sorted.first.title }}</h1>
-    <img class="top-img" src="{{ sorted.first.img }}">
+    <a href="{{sorted.first.url}}"><h1>{{ sorted.first.title }}</h1></a>
+    <a href="{{sorted.first.url}}"><img class="top-img" src="{{ sorted.first.img }}"></a>
 </div>
 <div class="tp-border"></div>
 <div class="pop-posts">
     {% for post in sorted offset:1 limit:2 %}
     <div class="pop-post">
-        <h2>{{post.title | capitalize}}</h2>
+        <a href="{{post.url}}"><h2>{{post.title | capitalize}}</h2></a>
         <div class="pop-header">
             <p>{{post.date | date_to_long_string }}</p>
             <p>{{post.tag }}</p>
         </div>
-        <img class="pop-img" src="{{post.img}}">
+        <a href="{{post.url}}"><img class="pop-img" src="{{post.img}}"></a>
         <a href="{{post.url}}">Mehr...</a>
     </div>
     {% endfor %}
@@ -34,12 +34,12 @@ layout: home
     <div class="bottom-posts">
         {% for post in sorted offset:4 %}
         <div class="post">
-            <h2>{{post.title}}</h2>
+            <a href="{{post.url}}"><h2>{{post.title}}</h2></a>
             <div class="bottom-header">
                 <p>{{post.date | date_to_long_string }}</p>
                 <p>{{post.tag}}</p>
             </div>
-            <img src="{{post.img}}">
+            <a href="{{post.url}}"><img src="{{post.img}}"></a>
             <a href="{{post.url}}">Mehr...</a>
         </div>
         {% endfor %}

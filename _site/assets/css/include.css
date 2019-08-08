@@ -60,10 +60,12 @@ body {
       margin: 0; }
     body #new-post .top-header h4:nth-child(n+2) {
       color: #00AA4A; }
-  body #new-post h1 {
-    color: #00AA4A;
-    font-size: 51px;
-    font-family: "Open Sans"; }
+  body #new-post a {
+    text-decoration-line: none; }
+    body #new-post a h1 {
+      color: #00AA4A;
+      font-size: 51px;
+      font-family: "Open Sans"; }
   body #new-post .top-img {
     width: 100%;
     height: auto; }
@@ -84,10 +86,13 @@ body {
       flex-wrap: wrap; }
       body .bottom-content .bottom-posts .post:nth-child(odd) {
         border-right: solid 1px #e1e1e1; }
+      body .bottom-content .bottom-posts .post:nth-child(n+3) {
+        margin-top: -100px; }
       body .bottom-content .bottom-posts .post {
         width: 45%;
         padding: 2%;
-        border-bottom: solid 1px #e1e1e1; }
+        border-bottom: solid 1px #e1e1e1;
+        display: table; }
         body .bottom-content .bottom-posts .post h2 {
           font-size: 18px;
           color: #00AA4A;
@@ -187,8 +192,12 @@ body {
   body .nav {
     display: flex; }
     body .nav a {
-      font-size: 16px;
+      font-size: 12px;
       margin-bottom: 20px; }
+  body #new-post .top-header h4 {
+    font-size: 12px; }
+  body #new-post a h1 {
+    font-size: 26px; }
   body .main-cont .content {
     width: 100%; }
     body .main-cont .content h1 {
@@ -196,12 +205,21 @@ body {
   body .main-cont .side-bar {
     width: 100%;
     margin: 0; }
-  body .pop-post h2 {
-    font-size: 18px; }
+  body .pop-posts {
+    flex-wrap: wrap; }
+    body .pop-posts .pop-post {
+      width: 100%; }
+      body .pop-posts .pop-post h2 {
+        font-size: 18px; }
   body .bottom-content {
     flex-wrap: wrap; }
     body .bottom-content .bottom-posts {
       width: 100%; }
+      body .bottom-content .bottom-posts .post:nth-child(n+3) {
+        margin-top: 0; }
+      body .bottom-content .bottom-posts .post {
+        width: 100%;
+        margin-top: 0; }
     body .bottom-content .side-bar {
       width: 100%;
       margin: 0; } }
