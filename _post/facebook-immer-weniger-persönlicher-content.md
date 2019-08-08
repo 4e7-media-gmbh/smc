@@ -1,6 +1,7 @@
 ---
 layout: detail
-tag: []
+tag:
+- Opinion
 title: 'Facebook: Immer Weniger Persönlicher Content'
 author: ''
 date: '2016-04-08'
