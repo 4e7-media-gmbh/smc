@@ -1,0 +1,24 @@
+---
+layout: detail
+tag: []
+title: Alles Über Die CeBIT 2016
+author: ''
+date: '2016-03-18 14:51:00'
+img: "/img/cebit.jpg"
+
+---
+Die **CeBIT** (**Ce**ntrum für **B**üroautomation, **I**nformationstechnologie und **T**elekommunikation) ist die weltweit größte Messe für Informationstechnik und findet im ersten Jahresviertel auf dem Messegelände in Hannover statt. Die diesjährige CeBIT geht mit dem heutigen Tage (18. März) zu Ende und lief unter dem Motto “Global Event for Digital Business”. **Wir haben die wichtigsten Fakten für euch zusammengefasst:**
+
+**- Zur Eröffnung stellte Deutschlands Wirtschaftsminister Sigmar Gabriel (SPD) die “Digitale Strategie 2025″ vor,** mit der die Bundesregierung einen Rückstand Deutschlands beim digitalen Wandel verhindern will: „Die erfolgreiche digitale Transformation unserer Volkswirtschaft ist die Voraussetzung für den Erhalt und die Stärkung unserer Wettbewerbsfähigkeit“, erklärte der Vize-Kanzler. „Unser Ziel ist es, Deutschland zum modernsten Industriestandort zu machen.“ Realisiert werden soll das u.a. durch den Fokus auf Glasfaser-Leitungen und dem Aufbau einer Digitalagentur als Schaltzentrale
+
+**- Hunderte Besucher ließen sich einen Mini-Chip unter die Haut setzen**: Amal Gfraafstra, Gründer vom Chips-Hersteller Startup “Dangerous Things” trägt seit mehr als 10 Jahren einen winzigen Chip unter der Haut zwischen Zeigefinger und Daumen und bot dasselbe Messebesuchern zum Sonderpreis für 50 Euro an. Die Assets? Der Chip ist mit einer Funkerkennung und einem Speicherplatz ausgestattet. Mit Hilfe der Funktechnik NFC können Informationen, die auf dem Chip gespeichert sind, innerhalb kürzester Zeit von wenigen Zentimetern aus gelesen werden. Dadurch führt Gfraasfstra seine Visitenkarte ständig mit sich: seine Daten können innerhalb kürzester Zeit an ein NFC-fähiges Smartphone übertragen werden und er sperrt seine Wohnungstür damit auf. Derzeit bieten Chip-Implantate noch äußerst eingeschränkte Möglichkeiten, erst wenn es so viele Einsatzmöglichkeiten wie ein Smartphone bekommt, wird er wirklich interessant, so Cyborg-Experte Alexander Krützfeldt.
+
+**- Europäische Betriebe sagten der US-Cloud den Kampf an:** die Deutsche Telekom startete mit der “Open Telekom Cloud” auf der Messe einen neuen Service, durch den flexibel verfügbare IT-Ressourcen mit dem strengen europäischen Datenschutz kombiniert werden sollen – etwas, das sich die Deutschen seit Jahren wünschen und ganz klar die Handlungsweise der USA im Bezug auf Datenschutz kritisiert. Aber auch die Österreichische Staatsdruckerei will das Thema des sich digital Ausweisens nicht Facebook, Google& Co überlassen und hat deshalb “MIA” gegründet. Wir bringen den digitalen Ausweis aufs Handy“, erklärt Lukas Praml, CEO der Österreichischen Staatsdruckerei, auf der CeBIT.
+
+**- Das Ziel lautet aber ganz klar “Digitalisierung der Wirtschaft”** – dazu gehört z.B. eine virtuelle Shopping-Plattform, über die man seine 3D-Abbild ankleiden kann und genau sieht, wie bestimmte Kleidungsstücken an einem aussehen. Anette Bronder, Geschäftsführerin der Digital Division von T-Systems sieht außerdem einen großen Trend in der Vernetzung von Fahrzeugen und bereits in der Realität angewendete, vernetzte Sensoren von Intel und TracoVino erleichtern mit Prognosen über den Zustand, möglichen Schädlingsbefall oder die zu erwartende Qualität oder Quantität den Weinanbau.
+
+**- Das deutsche Wirtschaftsministerium startete einen neuen Gründerwettbewerb**: Start-ups, die mit Hilfe von modernen Technologien ihre Ideen realisieren, würden mit Preisgeldern von bis zu 600 000 Euro sowie Beratung unterstützt, geplant sind sind zwei Wettbewerbsrunden pro Jahr. Außerdem wolle das Ministerium Sonderpreise zu Themen der Digitalen Agenda ausschreiben. Der Wettbewerb richtet sich vor allem an kleine Unternehmen, die sich noch in der Startphase befinden. Laut Projektleiter Wolfram Groß seien es nämlich genau diese, die oftmals Probleme mit der Finanzierung hätten.
+
+**- EU-Digitalkommissar Günther Oettinger drängte auf Verwirklichung des digitalen Binnenmarkts**: nationale Grenzen sollten auf diesem Gebiet irrelevant werden, da sie Europa als Gründungsstandort für digitale Start-Ups gegenüber z.B. den USA massiv verschlechtern. Wer heute etwa in London ein Start-up gründe und in Europa aktiv werden wolle, benötige im Grunde „28 Rechtsanwälte“, um die unterschiedlichen Datenschutzregeln in den EU-Ländern einzuhalten, kritisierte Oettinger. Außerdem sprach er sich, mit einigen Ausnahmen, gegen das sogenannte Geoblocking aus.
+
+Europa muss technikmäßg Asien und den USA gegnüber aufholen – das ist ganz klar. **Bleibt nur zu hoffen, dass dabei eine gute Mischung aus Wirtschafts- und Privatinteressen das Maß bildet und wir nicht “Opfer” weniger Wirtschaftslobbyisten werden. Was meint ihr?**
