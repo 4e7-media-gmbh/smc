@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag: []
+tags: []
 title: 9 Tipps Für Richtiges Social Media Marketing
 author: ''
 date: '2016-04-29'

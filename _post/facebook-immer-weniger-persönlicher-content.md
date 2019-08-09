@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Opinion
 title: 'Facebook: Immer Weniger Persönlicher Content'
 author: ''

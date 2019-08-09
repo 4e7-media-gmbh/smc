@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Social Media
 title: Die 5 Wichtigsten Facts Vom Facebook F8 Event
 author: ''

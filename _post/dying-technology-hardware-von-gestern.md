@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: 'DYING TECHNOLOGY: HARDWARE VON GESTERN'
 author: ''

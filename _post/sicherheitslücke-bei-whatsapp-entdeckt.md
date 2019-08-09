@@ -1,7 +1,6 @@
 ---
 layout: detail
-tag:
-- Tech 
+tags: Tech
 title: Sicherheitslücke bei WhatsApp entdeckt!
 author: Elias Önder
 date: '2015-09-09 13:14:00'

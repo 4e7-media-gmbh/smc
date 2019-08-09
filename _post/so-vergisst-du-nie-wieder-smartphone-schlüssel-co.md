@@ -1,6 +1,6 @@
 ---
 layouts: detail
-tag:
+tags:
 - tech
 title: So vergisst du nie wieder Smartphone, Schlüssel & Co!
 author: Victoria Ihl

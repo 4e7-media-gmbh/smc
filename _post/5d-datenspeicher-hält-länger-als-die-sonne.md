@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: 5D Datenspeicher Hält Länger Als Die Sonne
 author: ''

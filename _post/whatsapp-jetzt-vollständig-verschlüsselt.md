@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - 'Hangout '
 title: Whatsapp Jetzt Vollständig Verschlüsselt
 author: ''

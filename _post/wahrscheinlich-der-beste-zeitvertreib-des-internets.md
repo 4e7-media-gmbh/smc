@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: WAHRSCHEINLICH DER BESTE ZEITVERTREIB DES INTERNETS...
 author: 'Elias Önder '

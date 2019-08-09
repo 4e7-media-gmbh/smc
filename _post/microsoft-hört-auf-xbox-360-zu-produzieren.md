@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: Microsoft Hört Auf, Xbox 360 Zu Produzieren
 author: ''

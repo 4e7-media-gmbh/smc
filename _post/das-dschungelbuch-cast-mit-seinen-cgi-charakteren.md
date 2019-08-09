@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: Das Dschungelbuch-Cast Mit Seinen CGI-Charakteren
 author: ''

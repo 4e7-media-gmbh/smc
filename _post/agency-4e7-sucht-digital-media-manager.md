@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: Agency 4E7 sucht Digital Media Manager
 author: Elias Önder

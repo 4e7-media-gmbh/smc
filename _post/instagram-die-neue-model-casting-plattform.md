@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: 'Instagram: Die Neue Model-Casting Plattform?'
 author: ''

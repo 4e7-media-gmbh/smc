@@ -9,7 +9,7 @@ layout: home
 <div id="new-post">
     <div class="top-header">
         <h4>{{ sorted.first.date | date_to_long_string }}</h4>
-        <h4>{{ sorted.first.tag | capitalize }}</h4>
+        <h4>{{ sorted.first.tags| capitalize }}</h4>
         <h4>{{ sorted.first.author | capitalize }}</h4>
     </div>
     <a href="{{sorted.first.url}}"><h1>{{ sorted.first.title }}</h1></a>
@@ -22,7 +22,7 @@ layout: home
         <a href="{{post.url}}"><h2>{{post.title | capitalize}}</h2></a>
         <div class="pop-header">
             <p>{{post.date | date_to_long_string }}</p>
-            <p>{{post.tag }}</p>
+            <p>{{post.tags}}</p>
         </div>
         <a href="{{post.url}}"><img class="pop-img" src="{{post.img}}"></a>
         <a href="{{post.url}}">Mehr...</a>
@@ -52,13 +52,13 @@ layout: home
         <div class="side-posts">
             <h3>MOST POPULAR ON SMCA</h3>
             {% for post in sorted offset:1 limit:2 %}
-            {% if post.pop == 1 %}
+            {% if post.pop == "1" %}
             <div class="side-post">
                 <a href="{{post.url}}"><div class="side-img" style="background-image:url('{{post.img}}')"></div></a>
                 <a href="{{post.url}}"><h2>{{post.title | capitalize}}</h2></a>
                 <div class="side-header">
                     <p>{{post.date | date_to_long_string }}</p>
-                    <p>{{ post.tag }}</p>
+                    <p>{{ post.tags}}</p>
                 </div>
             </div>
             {% endif %}

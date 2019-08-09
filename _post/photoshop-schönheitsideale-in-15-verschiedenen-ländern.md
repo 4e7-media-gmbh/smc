@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: Photoshop – Schönheitsideale In 15 Verschiedenen Ländern
 author: ''

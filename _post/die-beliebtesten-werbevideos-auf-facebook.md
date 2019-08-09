@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Social Media
 title: Die beliebtesten Werbevideos auf Facebook
 author: Konstantin Hajwatov

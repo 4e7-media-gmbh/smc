@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: Die 10 Nervigsten Öffi-Gäste
 author: ''

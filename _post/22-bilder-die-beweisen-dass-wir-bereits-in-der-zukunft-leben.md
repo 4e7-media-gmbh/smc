@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: 22 Bilder, die beweisen, dass wir bereits in der Zukunft leben
 author: Alena Spitzer

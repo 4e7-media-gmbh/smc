@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: 15 Must-See Geschäftsnamen
 author: ''

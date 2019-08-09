@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - Hangout
 title: Sagt Microsoft Apple Den Kampf An?
 author: ''

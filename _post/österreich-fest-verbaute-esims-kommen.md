@@ -1,6 +1,6 @@
 ---
 layout: detail
-tag:
+tags:
 - 'Tech '
 title: 'Österreich: Fest Verbaute eSIMs Kommen!'
 author: ''
