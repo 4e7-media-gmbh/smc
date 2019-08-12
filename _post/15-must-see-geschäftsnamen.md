@@ -6,6 +6,9 @@ title: 15 Must-See Geschäftsnamen
 author: ''
 date: '2016-04-04'
 img: "/img/store.jpg"
+tag:
+- Hangout
+keywords: []
 
 ---
 Nachdem ich mir bei “Bread Pitt” ein Croissant geholt hatte, brachte ich meine Kleidung bei “Lord of The Rinse” zur Reinigung. Dann kaufte ich bei “Florist Gump” einen Strauß Blumen für den Geburtstag meiner Mutter und führte sie bei “Thai Tanic” zum Abendessen aus. In “Amy’s Winehouse” ließen wir den Abend dann bei einem gemütlichen Glas Bordeaux ausklingen…
