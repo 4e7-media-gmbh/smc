@@ -3,6 +3,8 @@ body {
   margin: 0 auto;
   font-family: "Open Sans";
   width: 90vw; }
+  body .tags {
+    margin-top: 50px; }
   body .search-area {
     background: #00AA4A;
     padding: 5px; }
@@ -22,7 +24,8 @@ body {
       font-size: 22px;
       font-family: "Open Sans";
       background: #00AA4A;
-      margin: 2px; }
+      margin: 2px;
+      text-decoration-line: none; }
   body .pop-posts {
     width: 100%;
     display: flex; }

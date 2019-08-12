@@ -2,7 +2,7 @@
 layout: detail
 title: DO IT FOR DENMARK!
 date: 2015-10-08 15:48:00 +0200
-tags: campaigns
+tags: Campaigns
 author: Victoria Ihl
 img: /img/denmark.png
 ---

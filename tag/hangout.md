@@ -1,12 +1,12 @@
 ---
 layout: tagpage
-title: "tags: hangout"
-tags: Hangout
+title: "tags: Hangout"
+
 ---
 <div class="side-posts">
             <h3>MOST POPULAR ON SMCA</h3>
-            {% for post in sorted %}
-            {% if post.tags== 1 %}
+            {% for post in site.post %}
+            {% if post.tags == Hangout %}
             <div class="side-post">
                 <a href="{{post.url}}"><div class="side-img" style="background-image:url('{{post.img}}')"></div></a>
                 <a href="{{post.url}}"><h2>{{post.title | capitalize}}</h2></a>
