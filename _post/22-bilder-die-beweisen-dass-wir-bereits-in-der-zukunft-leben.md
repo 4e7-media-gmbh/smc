@@ -6,6 +6,17 @@ title: 22 Bilder, die beweisen, dass wir bereits in der Zukunft leben
 author: Alena Spitzer
 date: '2015-08-07 11:35:00'
 img: "/img/msd.png"
+tag: []
+keywords:
+- do it for denmark
+- do it for mom
+- fortpflanzung
+- kampagne
+- reisen
+- spies rejser
+- urlaub
+- werbekampagne
+- werbung
 
 ---
 ## 1. Fremdsprache ganz einfach: eine App die in Echtzeit übersetzt!
