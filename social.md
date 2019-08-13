@@ -1,5 +1,6 @@
 ---
 layout: home
+title: SocialMedia
 ---
 <div class="bottom-content tags">
 {% assign sorted = site.post | sort: 'date' | reverse %}

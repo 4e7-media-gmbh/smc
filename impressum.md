@@ -1,5 +1,6 @@
 ---
 layout: info
+title: Impressum
 ---
 # IMPRESSUM
 

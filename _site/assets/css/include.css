@@ -138,7 +138,7 @@ body {
         body .side-bar .side-posts .side-post a h2 {
           font-size: 13px;
           color: black;
-          width: 150px;
+          max-width: 125px;
           margin-left: 10px; }
       body .side-bar .side-posts .side-post .side-header {
         display: flex;
