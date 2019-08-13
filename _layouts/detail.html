@@ -21,7 +21,34 @@
             <h1>{{page.title | capitalize}}</h1>
             <img src="{{page.img}}">
             {{content}}
-        </div>
+            <div class="footer-header">
+                <p>{{page.date | date_to_long_string }}</p>
+                <p>{{page.tags}}</p>
+            </div>
+            <div class="kw">
+                <p>Keywords:</p>
+            {% for key in page.keywords %}
+                <p>{{key}}</p>
+            {% endfor %}
+            </div>
+            <div class="share">
+                <a>Twittern</a>
+                <a>Pin It</a>
+            </div>
+            <div class="PageNavigation">
+                    {% if page.previous.url %}
+                      <a class="prev" href="{{page.previous.url}}">&laquo;PREV</a>
+                    {% endif %}
+                    {% if page.next.url %}
+                      <a class="next" href="{{page.next.url}}">NEXT &raquo;</a>
+                    {% endif %}
+            </div>
+            <div
+                class="just-comments"
+                data-apikey="7b22f499-bef6-4418-94cf-dba60f1271be">
+            </div>
+  <script async src="https://just-comments.com/w2.js"></script>
+         </div>
         <div class="side-bar">
             <div class="fb-cont">
                 <h3>FACEBOOK</h3>
@@ -48,8 +75,12 @@
             </div>
         </div> 
     </div>
+    {% include footer.html %}
     <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>  
     <script src="" async defer></script>
+    <script href="{{base.url}}/assets/js/my.js"></script>
+    <script async src="https://just-comments.com/w2.js"></script>
+    
 </body>
 
 </html>

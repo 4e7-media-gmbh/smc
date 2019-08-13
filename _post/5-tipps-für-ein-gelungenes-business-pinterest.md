@@ -1,6 +1,6 @@
 ---
 layout: detail
-tags: []
+tags: Social Media
 title: 5 Tipps Für Ein Gelungenes Business Pinterest
 author: ''
 date: '2016-03-04 11:18:00'

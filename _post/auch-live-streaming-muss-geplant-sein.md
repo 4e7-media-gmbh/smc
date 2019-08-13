@@ -1,8 +1,8 @@
 ---
 layout: detail
-tags: []
+tags: Social Media
 title: Auch live-streaming muss geplant sein
-author: Social Media
+author: 
 date: '2016-5-10'
 img: "/img/rock-fb.jpg"
 

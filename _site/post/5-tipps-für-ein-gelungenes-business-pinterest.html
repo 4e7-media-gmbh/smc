@@ -39,7 +39,7 @@
         <div class="content">
             <div class="main-header">
                 <p>04 March 2016</p>
-                <p></p>
+                <p>SocialMedia</p>
             </div>
             <div class="share">
                 <a>Twittern</a>
@@ -71,7 +71,32 @@
 
 <p>Konversationen über Pinnwände stehen bei Pinterest an der Tagesordnung. Durch die Zunahme an “buyable” Pins, nimmt auch die Zahl der Online-Käufer und (Produkt-) Kritiken zu. “Beaufsichtige” deine Boards und stelle sicher, dass du auf Fragen, Kommentare oder Bedenken reagierst – damit erhebst du dich schon mal über die meisten eCommerce Kundenservices. Genau das sind die kleinen Details, die Kunden zum Zurückkommen bewegen.</p>
 
-        </div>
+            <div class="footer-header">
+                <p>04 March 2016</p>
+                <p>SocialMedia</p>
+            </div>
+            <div class="kw">
+                <p>Keywords:</p>
+            
+            </div>
+            <div class="share">
+                <a>Twittern</a>
+                <a>Pin It</a>
+            </div>
+            <div class="PageNavigation">
+                    
+                      <a class="prev" href="/post/sagt-microsoft-apple-den-kampf-an">&laquo;PREV</a>
+                    
+                    
+                      <a class="next" href="/post/alles-%C3%BCber-die-cebit-2016">NEXT &raquo;</a>
+                    
+            </div>
+            <div
+                class="just-comments"
+                data-apikey="7b22f499-bef6-4418-94cf-dba60f1271be">
+            </div>
+  <script async src="https://just-comments.com/w2.js"></script>
+         </div>
         <div class="side-bar">
             <div class="fb-cont">
                 <h3>FACEBOOK</h3>
@@ -144,8 +169,51 @@
             </div>
         </div> 
     </div>
+    <div class="page-footer">
+    <a href="/about">About</a>
+    <a href="/ad">Advertise</a>
+    <a href="/impressum">Impressum</a>
+    <a href="/contact">Kontakt</a>
+</div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous">
+</script>
+<script>
+$(document).ready(function(){
+    $bodywidth = $("body").width()
+    $winwidth= $(window).width()
+    if($winwidth >= 550){
+    $footerwidth = $bodywidth - 200
+    console.log($footerwidth)
+    $(".page-footer").width($footerwidth)
+    }else{
+        $footerwidth = $bodywidth
+        console.log($footerwidth)
+        $(".page-footer").width($footerwidth)
+    }
+    
+    $(window).resize(function(){
+        $bodywidth = $("body").width()
+        $winwidth= $(window).width()
+        if($winwidth >= 550){
+            $footerwidth = $bodywidth - 200
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }else{
+            $footerwidth = $bodywidth
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }
+    })
+})
+</script>
     <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>  
     <script src="" async defer></script>
+    <script href="/assets/js/my.js"></script>
+    <script async src="https://just-comments.com/w2.js"></script>
+    
 </body>
 
 </html>

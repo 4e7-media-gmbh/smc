@@ -1,0 +1,40 @@
+<div class="page-footer">
+    <a href="{{base.url}}/about">About</a>
+    <a href="{{base.url}}/ad">Advertise</a>
+    <a href="{{base.url}}/impressum">Impressum</a>
+    <a href="{{base.url}}/contact">Kontakt</a>
+</div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous">
+</script>
+<script>
+$(document).ready(function(){
+    $bodywidth = $("body").width()
+    $winwidth= $(window).width()
+    if($winwidth >= 550){
+    $footerwidth = $bodywidth - 200
+    console.log($footerwidth)
+    $(".page-footer").width($footerwidth)
+    }else{
+        $footerwidth = $bodywidth
+        console.log($footerwidth)
+        $(".page-footer").width($footerwidth)
+    }
+    
+    $(window).resize(function(){
+        $bodywidth = $("body").width()
+        $winwidth= $(window).width()
+        if($winwidth >= 550){
+            $footerwidth = $bodywidth - 200
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }else{
+            $footerwidth = $bodywidth
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }
+    })
+})
+</script>

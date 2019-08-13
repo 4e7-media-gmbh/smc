@@ -1,6 +1,6 @@
 ---
 layout: detail
-tags: []
+tags: Tech
 title: Alles Über Die CeBIT 2016
 author: ''
 date: '2016-03-18 14:51:00'

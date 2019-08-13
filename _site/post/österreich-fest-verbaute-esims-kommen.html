@@ -65,7 +65,32 @@
 
 <p>Wir sind gespannt und warten auf Neuigkeiten!</p>
 
-        </div>
+            <div class="footer-header">
+                <p>23 February 2016</p>
+                <p>Tech</p>
+            </div>
+            <div class="kw">
+                <p>Keywords:</p>
+            
+            </div>
+            <div class="share">
+                <a>Twittern</a>
+                <a>Pin It</a>
+            </div>
+            <div class="PageNavigation">
+                    
+                      <a class="prev" href="/post/photoshop-sch%C3%B6nheitsideale-in-15-verschiedenen-l%C3%A4ndern">&laquo;PREV</a>
+                    
+                    
+                      <a class="next" href="/post/die-10-nervigsten-%C3%B6ffi-g%C3%A4ste">NEXT &raquo;</a>
+                    
+            </div>
+            <div
+                class="just-comments"
+                data-apikey="7b22f499-bef6-4418-94cf-dba60f1271be">
+            </div>
+  <script async src="https://just-comments.com/w2.js"></script>
+         </div>
         <div class="side-bar">
             <div class="fb-cont">
                 <h3>FACEBOOK</h3>
@@ -138,8 +163,51 @@
             </div>
         </div> 
     </div>
+    <div class="page-footer">
+    <a href="/about">About</a>
+    <a href="/ad">Advertise</a>
+    <a href="/impressum">Impressum</a>
+    <a href="/contact">Kontakt</a>
+</div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous">
+</script>
+<script>
+$(document).ready(function(){
+    $bodywidth = $("body").width()
+    $winwidth= $(window).width()
+    if($winwidth >= 550){
+    $footerwidth = $bodywidth - 200
+    console.log($footerwidth)
+    $(".page-footer").width($footerwidth)
+    }else{
+        $footerwidth = $bodywidth
+        console.log($footerwidth)
+        $(".page-footer").width($footerwidth)
+    }
+    
+    $(window).resize(function(){
+        $bodywidth = $("body").width()
+        $winwidth= $(window).width()
+        if($winwidth >= 550){
+            $footerwidth = $bodywidth - 200
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }else{
+            $footerwidth = $bodywidth
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }
+    })
+})
+</script>
     <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>  
     <script src="" async defer></script>
+    <script href="/assets/js/my.js"></script>
+    <script async src="https://just-comments.com/w2.js"></script>
+    
 </body>
 
 </html>

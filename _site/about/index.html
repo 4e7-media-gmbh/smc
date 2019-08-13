@@ -1,5 +1,12 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +23,10 @@
 
 
      
-</head><body><div class="search-area">
+</head>
+
+<body>
+    <div class="search-area">
     <input type="text" id="search-input" placeholder="search posts..">
     <br />
     <div id="results-container"></div>
@@ -28,55 +38,141 @@
     <a href="/hangout">Hangout</a>
     <a href="/tech">Tech</a>
     <a href="/opinion">Opinion</a>
-</div><main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
-
-  <div class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
-
-<p>You can find the source code for Minima at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/minima">minima</a></p>
-
-<p>You can find the source code for Jekyll at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
-
-
-  </div>
-
-</article>
-
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Your awesome title</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Your awesome title</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
-      </div>
-
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
 </div>
+    <div class="main-cont info">
+        <div class="content">
+        <h1 id="about">ABOUT</h1>
 
-      <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
-      </div>
+<p>In spring 2010 Alex Schönburg, Max Scheichenost and Christoph Jeschke started the Social Media Club Austria.</p>
+
+<p>Inspired by the founder of Social Media Club Chris Heuer and Kristie Wells, they launched the platform to connect media makers to promote media literacy, promote standard technologies, encourage ethical behavior and share best practices.</p>
+
+<p>SMCA has become one of the leading Social Media Blogs in Austria, inviting everybody interested in creativity, communication and advertising to participate. Guest authors publish regularly and enrich the community of SMCA with interdisciplinary content.</p>
+
+<p>Want to write for SMCA?</p>
+
+<p>Pls contact us  mail [a] socialmediaclub [dot] at</p>
+
+        </div>
+        <div class="side-bar">
+            <div class="fb-cont">
+                <h3>FACEBOOK</h3>
+                <a href="https://www.facebook.com/smClubAustria/"><img src="/img/fb.png"></a>
+            </div>
+            <div class="side-posts">
+                <h3>MOST POPULAR ON SMCA</h3>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="side-post">
+                    <a href="/post/sicherheitsl%C3%BCcke-bei-whatsapp-entdeckt">
+                        <div class="side-img" style="background-image:url('/img/whatsapp.jpg')"></div>
+                    </a>
+                    <a href="/post/sicherheitsl%C3%BCcke-bei-whatsapp-entdeckt">
+                        <h2>Sicherheitslücke bei whatsapp entdeckt!</h2>
+                    </a>
+                    <div class="side-header">
+                        <p>09 September 2015</p>
+                        <p></p>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
     </div>
+    <div class="page-footer">
+    <a href="/about">About</a>
+    <a href="/ad">Advertise</a>
+    <a href="/impressum">Impressum</a>
+    <a href="/contact">Kontakt</a>
+</div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous">
+</script>
+<script>
+$(document).ready(function(){
+    $bodywidth = $("body").width()
+    $winwidth= $(window).width()
+    if($winwidth >= 550){
+    $footerwidth = $bodywidth - 200
+    console.log($footerwidth)
+    $(".page-footer").width($footerwidth)
+    }else{
+        $footerwidth = $bodywidth
+        console.log($footerwidth)
+        $(".page-footer").width($footerwidth)
+    }
+    
+    $(window).resize(function(){
+        $bodywidth = $("body").width()
+        $winwidth= $(window).width()
+        if($winwidth >= 550){
+            $footerwidth = $bodywidth - 200
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }else{
+            $footerwidth = $bodywidth
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }
+    })
+})
+</script>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-  </div>
-
-</footer>
+    
+    <script src="" async defer></script>
+    <script href="/assets/js/my.js"></script>
 </body>
 
 </html>

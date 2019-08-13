@@ -1,18 +1,25 @@
 ---
-layout: page
-title: About
+layout: info
+title: about
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# ABOUT
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+In spring 2010 Alex Schönburg, Max Scheichenost and Christoph Jeschke started the Social Media Club Austria.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+ 
 
 
-[jekyll-organization]: https://github.com/jekyll
+Inspired by the founder of Social Media Club Chris Heuer and Kristie Wells, they launched the platform to connect media makers to promote media literacy, promote standard technologies, encourage ethical behavior and share best practices.
+
+ 
+ 
+
+SMCA has become one of the leading Social Media Blogs in Austria, inviting everybody interested in creativity, communication and advertising to participate. Guest authors publish regularly and enrich the community of SMCA with interdisciplinary content.
+
+ 
+
+Want to write for SMCA?
+
+Pls contact us  mail [a] socialmediaclub [dot] at

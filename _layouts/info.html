@@ -1,0 +1,55 @@
+---
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+    <div class="main-cont info">
+        <div class="content">
+        {{content}}
+        </div>
+        <div class="side-bar">
+            <div class="fb-cont">
+                <h3>FACEBOOK</h3>
+                <a href="https://www.facebook.com/smClubAustria/"><img src="/img/fb.png"></a>
+            </div>
+            <div class="side-posts">
+                <h3>MOST POPULAR ON SMCA</h3>
+                {% for post in site.post%}
+                {% if post.pop == 1 %}
+                <div class="side-post">
+                    <a href="{{post.url}}">
+                        <div class="side-img" style="background-image:url('{{post.img}}')"></div>
+                    </a>
+                    <a href="{{post.url}}">
+                        <h2>{{post.title | capitalize}}</h2>
+                    </a>
+                    <div class="side-header">
+                        <p>{{post.date | date_to_long_string }}</p>
+                        <p>{{post.tag}}</p>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    
+    <script src="" async defer></script>
+    <script href="{{base.url}}/assets/js/my.js"></script>
+</body>
+
+</html>
