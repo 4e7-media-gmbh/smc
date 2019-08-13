@@ -5,7 +5,7 @@ layout: home
 {% assign sorted = site.post | sort: 'date' | reverse %}
 <div class="bottom-posts">
     {% for post in sorted  %}
-    {% if post.tags contains "Social Media" %}
+    {% if post.tags contains "SocialMedia" %}
         <div class="post">
             <a href="{{post.url}}"><h2>{{post.title | capitalize}}</h2></a>
             <div class="bottom-header">

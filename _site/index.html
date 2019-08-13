@@ -25,7 +25,7 @@
     <br />
     <div id="results-container"></div>
 </div>
-<a href="index.html"><img class="header-img" src="/img/header.png"></a>
+<a href="/index.html"><img class="header-img" src="/img/header.png"></a>
 <div class="nav">
     <a href="/social">Social Media</a>
     <a href="/campaigns">Campaigns</a>
@@ -37,7 +37,7 @@
 <div id="new-post">
     <div class="top-header">
         <h4>10 May 2016</h4>
-        <h4>["social", "media"]</h4>
+        <h4>SocialMedia</h4>
         <h4></h4>
     </div>
     <a href="/post/auch-live-streaming-muss-geplant-sein"><h1>Auch live-streaming muss geplant sein</h1></a>
@@ -235,7 +235,7 @@
             <a href="/post/die-beliebtesten-werbevideos-auf-facebook"><h2>Die beliebtesten Werbevideos auf Facebook</h2></a>
             <div class="bottom-header">
                 <p>18 August 2015</p>
-                <p>Social Media</p>
+                <p>SocialMedia</p>
             </div>
             <a href="/post/die-beliebtesten-werbevideos-auf-facebook"><img src="" /></a>
             <a href="/post/die-beliebtesten-werbevideos-auf-facebook">Mehr...</a>
@@ -341,7 +341,46 @@
     </div>
 </div>
 
-
+        <div class="page-footer">
+    <a href="/about">About</a>
+    <a href="/ad">Advertise</a>
+    <a href="/impressum">Impressum</a>
+    <a href="/contact">Kontakt</a>
+</div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous">
+</script>
+<script>
+$(document).ready(function(){
+    $bodywidth = $("body").width()
+    $winwidth= $(window).width()
+    if($winwidth >= 550){
+    $footerwidth = $bodywidth - 200
+    console.log($footerwidth)
+    $(".page-footer").width($footerwidth)
+    }else{
+        $footerwidth = $bodywidth
+        console.log($footerwidth)
+        $(".page-footer").width($footerwidth)
+    }
+    
+    $(window).resize(function(){
+        $bodywidth = $("body").width()
+        $winwidth= $(window).width()
+        if($winwidth >= 550){
+            $footerwidth = $bodywidth - 200
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }else{
+            $footerwidth = $bodywidth
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }
+    })
+})
+</script>
         <script href="/assets/js/my.js"></script>
         <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>   
         <script src="" async defer></script>

@@ -9,7 +9,7 @@ layout: home
 <div id="new-post">
     <div class="top-header">
         <h4>{{ sorted.first.date | date_to_long_string }}</h4>
-        <h4>{{ sorted.first.tags| capitalize }}</h4>
+        <h4>{{ sorted.first.tags}}</h4>
         <h4>{{ sorted.first.author | capitalize }}</h4>
     </div>
     <a href="{{sorted.first.url}}"><h1>{{ sorted.first.title }}</h1></a>

@@ -25,7 +25,7 @@
     <br />
     <div id="results-container"></div>
 </div>
-<a href="index.html"><img class="header-img" src="/img/header.png"></a>
+<a href="/index.html"><img class="header-img" src="/img/header.png"></a>
 <div class="nav">
     <a href="/social">Social Media</a>
     <a href="/campaigns">Campaigns</a>
@@ -38,7 +38,25 @@
 <div class="bottom-posts">
     
     
+        <div class="post">
+            <a href="/post/auch-live-streaming-muss-geplant-sein"><h2>Auch live-streaming muss geplant sein</h2></a>
+            <div class="bottom-header">
+                <p>10 May 2016</p>
+                <p>SocialMedia</p>
+            </div>
+            <a href="/post/auch-live-streaming-muss-geplant-sein"><img class="side-img" src="/img/rock-fb.jpg" /></a>
+        </div>
     
+    
+    
+        <div class="post">
+            <a href="/post/9-tipps-f%C3%BCr-richtiges-social-media-marketing"><h2>9 tipps für richtiges social media marketing</h2></a>
+            <div class="bottom-header">
+                <p>29 April 2016</p>
+                <p>SocialMedia</p>
+            </div>
+            <a href="/post/9-tipps-f%C3%BCr-richtiges-social-media-marketing"><img class="side-img" src="/img/social-media-marketing-image.png" /></a>
+        </div>
     
     
     
@@ -48,7 +66,7 @@
             <a href="/post/die-5-wichtigsten-facts-vom-facebook-f8-event"><h2>Die 5 wichtigsten facts vom facebook f8 event</h2></a>
             <div class="bottom-header">
                 <p>14 April 2016</p>
-                <p>Social Media</p>
+                <p>SocialMedia</p>
             </div>
             <a href="/post/die-5-wichtigsten-facts-vom-facebook-f8-event"><img class="side-img" src="/img/f8.jpg" /></a>
         </div>
@@ -66,6 +84,15 @@
     
     
     
+    
+        <div class="post">
+            <a href="/post/5-tipps-f%C3%BCr-ein-gelungenes-business-pinterest"><h2>5 tipps für ein gelungenes business pinterest</h2></a>
+            <div class="bottom-header">
+                <p>04 March 2016</p>
+                <p>SocialMedia</p>
+            </div>
+            <a href="/post/5-tipps-f%C3%BCr-ein-gelungenes-business-pinterest"><img class="side-img" src="/img/Pinnadel.jpg" /></a>
+        </div>
     
     
     
@@ -91,7 +118,7 @@
             <a href="/post/die-beliebtesten-werbevideos-auf-facebook"><h2>Die beliebtesten werbevideos auf facebook</h2></a>
             <div class="bottom-header">
                 <p>18 August 2015</p>
-                <p>Social Media</p>
+                <p>SocialMedia</p>
             </div>
             <a href="/post/die-beliebtesten-werbevideos-auf-facebook"><img class="side-img" src="" /></a>
         </div>
@@ -174,7 +201,46 @@
     </div>
 </div>
 
-
+        <div class="page-footer">
+    <a href="/about">About</a>
+    <a href="/ad">Advertise</a>
+    <a href="/impressum">Impressum</a>
+    <a href="/contact">Kontakt</a>
+</div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous">
+</script>
+<script>
+$(document).ready(function(){
+    $bodywidth = $("body").width()
+    $winwidth= $(window).width()
+    if($winwidth >= 550){
+    $footerwidth = $bodywidth - 200
+    console.log($footerwidth)
+    $(".page-footer").width($footerwidth)
+    }else{
+        $footerwidth = $bodywidth
+        console.log($footerwidth)
+        $(".page-footer").width($footerwidth)
+    }
+    
+    $(window).resize(function(){
+        $bodywidth = $("body").width()
+        $winwidth= $(window).width()
+        if($winwidth >= 550){
+            $footerwidth = $bodywidth - 200
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }else{
+            $footerwidth = $bodywidth
+            console.log($footerwidth)
+            $(".page-footer").width($footerwidth)
+        }
+    })
+})
+</script>
         <script href="/assets/js/my.js"></script>
         <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>   
         <script src="" async defer></script>

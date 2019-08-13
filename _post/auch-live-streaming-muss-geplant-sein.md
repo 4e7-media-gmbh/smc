@@ -1,6 +1,6 @@
 ---
 layout: detail
-tags: Social Media
+tags: "SocialMedia"
 title: Auch live-streaming muss geplant sein
 author: 
 date: '2016-5-10'
