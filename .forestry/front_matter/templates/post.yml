@@ -24,6 +24,7 @@ fields:
   config:
     required: false
   label: date
+  description: YYYY-MM-DD
 - name: tag
   type: tag_list
   default: []
@@ -38,6 +39,12 @@ fields:
   default: []
   label: Keywords
 pages:
+- _post/auch-live-streaming-muss-geplant-sein.md
+- _post/5-tipps-für-ein-gelungenes-business-pinterest.md
+- _post/die-beliebtesten-werbevideos-auf-facebook.md
+- _post/9-tipps-für-richtiges-social-media-marketing.md
+- _post/die-5-wichtigsten-facts-vom-facebook-f8-event.md
+- _post/alles-über-die-cebit-2016.md
 - _post/22-bilder-die-beweisen-dass-wir-bereits-in-der-zukunft-leben.md
 - _post/15-must-see-geschäftsnamen.md
 - _post/whatsapp-jetzt-vollständig-verschlüsselt.md
@@ -45,19 +52,13 @@ pages:
 - _post/wahrscheinlich-der-beste-zeitvertreib-des-internets.md
 - _post/so-vergisst-du-nie-wieder-smartphone-schlüssel-co.md
 - _post/5d-datenspeicher-hält-länger-als-die-sonne.md
-- _post/alles-über-die-cebit-2016.md
 - _post/sagt-microsoft-apple-den-kampf-an.md
-- _post/9-tipps-für-richtiges-social-media-marketing.md
 - _post/agency-4e7-sucht-digital-media-manager.md
 - _post/die-10-nervigsten-öffi-gäste.md
 - _post/sicherheitslücke-bei-whatsapp-entdeckt.md
-- _post/5-tipps-für-ein-gelungenes-business-pinterest.md
 - _post/das-dschungelbuch-cast-mit-seinen-cgi-charakteren.md
 - _post/microsoft-hört-auf-xbox-360-zu-produzieren.md
 - _post/instagram-die-neue-model-casting-plattform.md
 - _post/dying-technology-hardware-von-gestern.md
 - _post/facebook-immer-weniger-persönlicher-content.md
-- _post/auch-live-streaming-muss-geplant-sein.md
-- _post/die-5-wichtigsten-facts-vom-facebook-f8-event.md
-- _post/die-beliebtesten-werbevideos-auf-facebook.md
 - _post/photoshop-schönheitsideale-in-15-verschiedenen-ländern.md
